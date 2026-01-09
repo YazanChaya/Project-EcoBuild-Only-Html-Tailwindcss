@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #264653;
+    --color-green: #2a9d8f;
+    --color-secondary: #e9c46a;
+    --color-white-1: #ffffff;
+    --color-white-2: #f1f5f9;
+    --color-white-3: #ffffff1a;
+    --color-gray-1: #cccccc;
+    --color-gray-2: #f8f9fa;
+    --color-black-1: #212529;
+    --color-black-1: #666666;
+    --spacing-primary: 1rem;
+    --spacing-secondry: 1.25rem;
+    --spacing-third: 2.50rem;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    @apply w-full overflow-x-hidden
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center-container {
+    @apply mx-auto container px-4
+}
+
+.br-bottom {
+    @apply relative duration-500 hover:text-secondary before:duration-500 before:absolute before:w-0 before:h-0.5 before:bg-transparent before:-bottom-1.5 before:left-0 hover:before:bg-secondary hover:before:w-full
+}
+
+.title {
+    @apply text-[2.5rem] font-bold inline-block relative pb-2.5 before:absolute before:w-20 before:h-0.75 before:bg-green before:bottom-0 before:left-[50%] before:-translate-x-[50%]
+}
+
+.section {
+    @apply py-20 px-0
+}
+
+.testimonials {
+    @apply italic mb-6 relative before:absolute before:content-['\"'] before:text-[3rem] before:text-green before:opacity-[0.3] before:-top-[20px] before:-left-4 after:absolute after:content-['\"'] after:text-[3rem] after:text-green after:opacity-[0.3] after:-bottom-[40px] after:-right-2.5
+}
+
+.footer-text {
+    @apply text-secondary text-[1.3rem] font-bold mb-6 pb-2.5 relative before:absolute before:bottom-0 before:left-0 before:bg-green before:w-12.5 before:h-0.5
+}
+
+@media (max-width: 992px) {
+    .about-image {
+        order: -1;
+    }
+}
+
+@media (max-width: 1010px) {
+
+    .about-contant,
+    .about-form {
+        grid-template-columns: 1fr;
+    }
+
+}

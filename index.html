@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoBuild</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body class="text-white-1">
+    <!-- Header -->
+    <header class="sticky top-0 left-0 bg-primary z-100 py-5 px-5 w-screen">
+      <div class="flex justify-between center-container items-center">
+        <p class="text-3xl font-bold text-secondary">
+          Eco<span class="text-green">Build</span>
+        </p>
+        <div class="hidden md:flex items-center gap-9">
+          <nav>
+            <ul class="flex items-center gap-9 font-medium">
+              <li class="">
+                <a class="br-bottom" href="#">Home</a>
+              </li>
+              <li>
+                <a class="br-bottom" href="#">About</a>
+              </li>
+              <li>
+                <a class="br-bottom" href="#">Services</a>
+              </li>
+              <li>
+                <a class="br-bottom" href="#">Projects</a>
+              </li>
+              <li>
+                <a class="br-bottom" href="#">Team</a>
+              </li>
+              <li>
+                <a class="br-bottom" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="cursor-pointer md:hidden">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#000000"
+            class="h-8 w-8 bg-transparent text-2xl lh-1 text-white-1"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M4 18L20 18"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+              ></path>
+              <path
+                d="M4 12L20 12"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+              ></path>
+              <path
+                d="M4 6L20 6"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section
+      class="section h-screen w-screen bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/assets/istockphoto-1251629816-1024x1024.jpg')] bg-cover bg-center flex justify-center items-center"
+    >
+      <div class="text-center p-8 w-200">
+        <h1 class="text-[3.5rem] font-bold mb-3">
+          Building a Sustainable Future
+        </h1>
+        <p class="text-[1.2rem] mb-8">
+          EcoBuild specializes in eco-friendly construction solutions that
+          minimize environmental impact while maximizing efficiency and beauty.
+        </p>
+        <a
+          href="#"
+          class="inline-block bg-green py-4 px-6 rounded-[5px] font-semibold cursor-pointer text-[1rem] duration-500 hover:bg-secondary hover:-translate-y-1"
+          >Get In Touch</a
+        >
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="section">
+      <div class="center-container">
+        <div class="mb-12 text-center">
+          <h1 class="title text-primary">About Us</h1>
+        </div>
+        <div
+          class="about-contant grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+        >
+          <div class="text-black">
+            <h3 class="text-[1.8rem] mb-[1rem] text-primary font-bold">
+              Our Story
+            </h3>
+            <p class="mb-6">
+              Founded in 2010, EcoBuild began with a simple mission: to
+              revolutionize the construction industry by integrating sustainable
+              practices into every project. We believe that beautiful,
+              functional spaces can coexist with environmental responsibility.
+            </p>
+            <p class="mb-6">
+              Over the years, we've completed over 200 projects, each one
+              designed with energy efficiency, sustainable materials, and
+              environmental harmony in mind. Our team of architects, engineers,
+              and builders work collaboratively to deliver exceptional results.
+            </p>
+            <p class="mb-6">
+              We're proud to be recognized as leaders in green construction,
+              with multiple awards for innovation and sustainability.
+            </p>
+            <a
+              href="#"
+              class="inline-block bg-green py-4 px-6 rounded-[5px] font-semibold cursor-pointer text-[1rem] duration-500 hover:bg-secondary hover:-translate-y-1 text-white"
+              >Our Services</a
+            >
+          </div>
+          <div
+            class="about-image relative overflow-hidden rounded-[10px] shadow-[0px,15px,30px,rgba(0,0,0,0.1)]"
+          >
+            <img
+              class="duration-300 hover:scale-[1.05]"
+              src="./assets/pexels-mccutcheon-1148399.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Services -->
+    <section class="section bg-white-2">
+      <div class="center-container">
+        <div class="mb-12 text-center">
+          <h1 class="title text-primary">Our Services</h1>
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
+          <div
+            class="bg-white rounded-[10px] p-8 overflow-hidden text-center relative duration-300 shadow-[0px_5px_15px_rgba(0,0,0,0.05)] before:absolute before:left-0 before:top-0 before:w-full before:h-1.25 before:bg-green before:scale-x-0 before:duration-300 hover:before:scale-x-100 hover:-translate-y-2.5 hover:shadow-[0px_5px_30px_rgba(0,0,0,0.1)]"
+          >
+            <div>
+              <i class="fa-solid fa-leaf text-green text-5xl mb-6"></i>
+            </div>
+            <h3 class="text-primary text-[1.5rem] mb-[1rem] font-bold">
+              Sustainable Design
+            </h3>
+            <p class="text-black">
+              Our architects create innovative designs that prioritize energy
+              efficiency, natural lighting, and sustainable materials.
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-[10px] p-8 overflow-hidden text-center relative duration-300 shadow-[0px_5px_15px_rgba(0,0,0,0.05)] before:absolute before:left-0 before:top-0 before:w-full before:h-1.25 before:bg-green before:scale-x-0 before:duration-300 hover:before:scale-x-100 hover:-translate-y-2.5 hover:shadow-[0px_5px_30px_rgba(0,0,0,0.1)]"
+          >
+            <div>
+              <i class="fa-solid fa-solar-panel text-green text-5xl mb-6"></i>
+            </div>
+            <h3 class="text-primary text-[1.5rem] mb-[1rem] font-bold">
+              Renewable Energy Integration
+            </h3>
+            <p class="text-black">
+              We incorporate solar, wind, and geothermal solutions to reduce
+              your carbon footprint and energy costs.
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-[10px] p-8 overflow-hidden text-center relative duration-300 shadow-[0px_5px_15px_rgba(0,0,0,0.05)] before:absolute before:left-0 before:top-0 before:w-full before:h-1.25 before:bg-green before:scale-x-0 before:duration-300 hover:before:scale-x-100 hover:-translate-y-2.5 hover:shadow-[0px_5px_30px_rgba(0,0,0,0.1)]"
+          >
+            <div>
+              <i class="fa-solid fa-recycle text-green text-5xl mb-6"></i>
+            </div>
+            <h3 class="text-primary text-[1.5rem] mb-[1rem] font-bold">
+              Green Materials
+            </h3>
+            <p class="text-black">
+              We source sustainable, recycled, and locally-produced materials to
+              minimize environmental impact.
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-[10px] p-8 overflow-hidden text-center relative duration-300 shadow-[0px_5px_15px_rgba(0,0,0,0.05)] before:absolute before:left-0 before:top-0 before:w-full before:h-1.25 before:bg-green before:scale-x-0 before:duration-300 hover:before:scale-x-100 hover:-translate-y-2.5 hover:shadow-[0px_5px_30px_rgba(0,0,0,0.1)]"
+          >
+            <div>
+              <i class="fa-solid fa-tint text-green text-5xl mb-6"></i>
+            </div>
+            <h3 class="text-primary text-[1.5rem] mb-[1rem] font-bold">
+              Water Management
+            </h3>
+            <p class="text-black">
+              Our systems capture, filter, and reuse rainwater while
+              implementing water-efficient fixtures.
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-[10px] p-8 overflow-hidden text-center relative duration-300 shadow-[0px_5px_15px_rgba(0,0,0,0.05)] before:absolute before:left-0 before:top-0 before:w-full before:h-1.25 before:bg-green before:scale-x-0 before:duration-300 hover:before:scale-x-100 hover:-translate-y-2.5 hover:shadow-[0px_5px_30px_rgba(0,0,0,0.1)]"
+          >
+            <div>
+              <i class="fa-solid fa-home text-green text-5xl mb-6"></i>
+            </div>
+            <h3 class="text-primary text-[1.5rem] mb-[1rem] font-bold">
+              Eco-Renovations
+            </h3>
+            <p class="text-black">
+              Transform existing structures into energy-efficient, sustainable
+              spaces with our renovation services.
+            </p>
+          </div>
+          <div
+            class="bg-white rounded-[10px] p-8 overflow-hidden text-center relative duration-300 shadow-[0px_5px_15px_rgba(0,0,0,0.05)] before:absolute before:left-0 before:top-0 before:w-full before:h-1.25 before:bg-green before:scale-x-0 before:duration-300 hover:before:scale-x-100 hover:-translate-y-2.5 hover:shadow-[0px_5px_30px_rgba(0,0,0,0.1)]"
+          >
+            <div>
+              <i class="fa-solid fa-seedling text-green text-5xl mb-6"></i>
+            </div>
+            <h3 class="text-primary text-[1.5rem] mb-[1rem] font-bold">
+              Green Certification
+            </h3>
+            <p class="text-black">
+              We help you achieve LEED, BREEAM, and other green building
+              certifications for your project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Projects -->
+    <section class="section">
+      <div class="center-container">
+        <div class="mb-12 text-center">
+          <h1 class="title text-primary">Our Projects</h1>
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-8">
+          <div
+            class="rounded-[10px] overflow-hidden relative shadow-[0px_5px_15px_rgba(0,0,0,0.1)] group"
+          >
+            <div class="h-62.5 overflow-hidden">
+              <img
+                class="object-cover duration-300 group-hover:scale-[1.1]"
+                src="./assets/pexels-n-voitkevich-8939806.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="text-[1.3rem] font-bold mb-2 text-primary">
+                Solaris Office Complex
+              </h3>
+              <p class="text-[#666]">
+                A net-zero energy office building with rooftop gardens and
+                advanced water recycling systems.
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[10px] overflow-hidden relative shadow-[0px_5px_15px_rgba(0,0,0,0.1)] group"
+          >
+            <div class="h-62.5 overflow-hidden">
+              <img
+                class="object-cover duration-300 group-hover:scale-[1.1]"
+                src="./assets/pexels-pixabay-159213.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="text-[1.3rem] font-bold mb-2 text-primary">
+                EcoVista Residences
+              </h3>
+              <p class="text-[#666]">
+                Sustainable apartment complex featuring passive heating and
+                community green spaces.
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[10px] overflow-hidden relative shadow-[0px_5px_15px_rgba(0,0,0,0.1)] group"
+          >
+            <div class="h-62.5 overflow-hidden">
+              <img
+                class="object-cover duration-300 group-hover:scale-[1.1]"
+                src="./assets/pexels-droosmo-2982449.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-6 bg-white">
+              <h3 class="text-[1.3rem] font-bold mb-2 text-primary">
+                Harmony Elementary School
+              </h3>
+              <p class="text-[#666]">
+                LEED Platinum certified school with natural ventilation and
+                outdoor learning environments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Team -->
+    <section class="section bg-primary">
+      <div class="center-container">
+        <div class="mb-12 text-center">
+          <h1 class="title text-white">Our Team</h1>
+        </div>
+        <div class="flex flex-wrap gap-8 justify-center">
+          <div class="max-w-62.5 text-center">
+            <div
+              class="w-50 h-50 overflow-hidden rounded-full mt-0 mb-6 mx-auto border-[5px] border-solid border-green relative"
+            >
+              <img
+                class="w-100 h-100 object-cover"
+                src="./assets/images (1).jfif"
+                alt=""
+              />
+            </div>
+            <h3 class="text-[1.3rem] mb-2 font-bold">Sarah Johnson</h3>
+            <p class="font-medium text-secondary">CEO & Founder</p>
+          </div>
+          <div class="max-w-62.5 text-center">
+            <div
+              class="w-50 h-50 overflow-hidden rounded-full mt-0 mb-6 mx-auto border-[5px] border-solid border-green relative"
+            >
+              <img
+                class="w-100 h-100 object-cover"
+                src="./assets/images.jfif"
+                alt=""
+              />
+            </div>
+            <h3 class="text-[1.3rem] mb-2 font-bold">Michael Chen</h3>
+            <p class="font-medium text-secondary">Lead Architect</p>
+          </div>
+          <div class="max-w-62.5 text-center">
+            <div
+              class="w-50 h-50 overflow-hidden rounded-full mt-0 mb-6 mx-auto border-[5px] border-solid border-green relative"
+            >
+              <img
+                class="w-100 h-100 object-cover"
+                src="./assets/images (5).jfif"
+                alt=""
+              />
+            </div>
+            <h3 class="text-[1.3rem] mb-2 font-bold">Elena Rodriguez</h3>
+            <p class="font-medium text-secondary">Sustainability Director</p>
+          </div>
+          <div class="max-w-62.5 text-center">
+            <div
+              class="w-50 h-50 overflow-hidden rounded-full mt-0 mb-6 mx-auto border-[5px] border-solid border-green relative"
+            >
+              <img
+                class="w-100 h-100 object-cover"
+                src="./assets/images (6).jfif"
+                alt=""
+              />
+            </div>
+            <h3 class="text-[1.3rem] mb-2 font-bold">David Kim</h3>
+            <p class="font-medium text-secondary">Project Manager</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Client Testimonials -->
+    <section class="section bg-white-2">
+      <div class="center-container">
+        <div class="mb-12 text-center">
+          <h1 class="title text-primary">Client Testimonials</h1>
+        </div>
+        <div class="max-w-200 my-0 mx-auto relative">
+          <div
+            class="bg-white p-8 rounded-[10px] shadow-[0px_5px_15px_rgba(0,0,0,0.05)] text-center"
+          >
+            <div class="testimonials">
+              <p class="text-black">
+                Working with EcoBuild was an exceptional experience. They
+                delivered our corporate headquarters on time and under budget,
+                while exceeding our sustainability goals. The building has
+                reduced our energy costs by 40%!
+              </p>
+            </div>
+            <h4 class="font-semibold text-primary">
+              - Jennifer Williams, CEO of TechForward
+            </h4>
+          </div>
+          <div class="flex justify-center mt-8">
+            <div
+              class="w-3 h-3 rounded-full my-0 mx-1.25 cursor-pointer bg-[#ccc]"
+            ></div>
+            <div
+              class="w-3 h-3 rounded-full my-0 mx-1.25 cursor-pointer bg-green"
+            ></div>
+            <div
+              class="w-3 h-3 rounded-full my-0 mx-1.25 cursor-pointer bg-[#ccc]"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us -->
+    <section class="section">
+      <div class="center-container">
+        <div class="mb-12 text-center">
+          <h1 class="title text-primary">Contact Us</h1>
+        </div>
+        <div class="about-form grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="flex flex-col gap-4">
+            <div class="flex items-start gap-3">
+              <div class="text-[1.5rem] text-green mt-1.25">
+                <i class="fa-solid fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3 class="text-[1.2rem] mb-[0.3rem] text-primary font-bold">
+                  Our Office
+                </h3>
+                <p class="text-black">123 Green Street, Eco City, EC 12345</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="text-[1.5rem] text-green mt-1.25">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h3 class="text-[1.2rem] mb-[0.3rem] text-primary font-bold">
+                  Phone
+                </h3>
+                <p class="text-black">+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="text-[1.5rem] text-green mt-1.25">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h3 class="text-[1.2rem] mb-[0.3rem] text-primary font-bold">
+                  Email
+                </h3>
+                <p class="text-black">info@ecobuild.com</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="text-[1.5rem] text-green mt-1.25">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <h3 class="text-[1.2rem] mb-[0.3rem] text-primary font-bold">
+                  Business Hours
+                </h3>
+                <p class="text-black">
+                  Monday - Friday: 9:00 AM - 6:00 PM Saturday: 10:00 AM - 4:00
+                  PM
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white p-8 rounded-[10px] shadow-[0px_5px_15px_rgba(0,0,0,0.05)]"
+          >
+            <form>
+              <div class="mb-6">
+                <label class="block text-primary mb-2 font-medium" for="name"
+                  >Name</label
+                >
+                <input
+                  class="p-[0.8rem] border border-[#ddd] rounded-[5px] text-[1rem] duration-300 w-full focus:outline-none focus:border-green focus:shadow-[0px_0px_0px_3px_rgba(42,157,143,0.2)]"
+                  type="text"
+                  id="name"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label class="block text-primary mb-2 font-medium" for="email"
+                  >Email</label
+                >
+                <input
+                  class="p-[0.8rem] border border-[#ddd] rounded-[5px] text-[1rem] duration-300 w-full focus:outline-none focus:border-green focus:shadow-[0px_0px_0px_3px_rgba(42,157,143,0.2)]"
+                  type="email"
+                  id="email"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label class="block text-primary mb-2 font-medium" for="subject"
+                  >Subject</label
+                >
+                <input
+                  class="p-[0.8rem] border border-[#ddd] rounded-[5px] text-[1rem] duration-300 w-full focus:outline-none focus:border-green focus:shadow-[0px_0px_0px_3px_rgba(42,157,143,0.2)]"
+                  type="text"
+                  id="subject"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label class="block text-primary mb-2 font-medium" for="message"
+                  >Message</label
+                >
+                <textarea
+                  class="p-[0.8rem] border border-[#ddd] rounded-[5px] text-[1rem] duration-300 w-full focus:outline-none focus:border-green focus:shadow-[0px_0px_0px_3px_rgba(42,157,143,0.2)]"
+                  type="text"
+                  id="message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">
+                <a
+                  href="#"
+                  class="inline-block bg-green py-4 px-6 rounded-[5px] font-semibold cursor-pointer text-[1rem] duration-500 hover:bg-secondary hover:-translate-y-1 text-white"
+                  >Our Services</a
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="pt-20 bg-primary text-white pb-3 px-0">
+      <div class="center-container">
+        <div
+          class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-8 mb-8"
+        >
+          <div>
+            <h3 class="footer-text">EcoBuild</h3>
+            <p>
+              Building sustainable futures through innovative construction
+              practices that respect our planet and its resources.
+            </p>
+            <div class="flex gap-3 mt-3">
+              <a
+                class="flex justify-center items-center w-[40px] h-[40px] bg-white-3 text-white rounded-full duration-300 hover:bg-green hover:-translate-y-1"
+                href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="flex justify-center items-center w-[40px] h-[40px] bg-white-3 text-white rounded-full duration-300 hover:bg-green hover:-translate-y-1"
+                href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="flex justify-center items-center w-[40px] h-[40px] bg-white-3 text-white rounded-full duration-300 hover:bg-green hover:-translate-y-1"
+                href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="flex justify-center items-center w-[40px] h-[40px] bg-white-3 text-white rounded-full duration-300 hover:bg-green hover:-translate-y-1"
+                href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="footer-text">Quick Links</h3>
+            <ul>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Services</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Projects</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Our Team</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-text">Services</h3>
+            <ul>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Sustainable Design</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Renewable Energy</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Green Materials</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Water Management</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Eco-Renovations</a
+                >
+              </li>
+              <li class="mb-[0.8rem]">
+                <a
+                  class="text-[#ccc] duration-300 hover:text-secondary hover:pl-1.25"
+                  href="#"
+                  >Green Certification</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-text">Newsletter</h3>
+            <p>
+              Subscribe to our newsletter for the latest updates on sustainable
+              construction.
+            </p>
+            <form>
+              <div class="mb-4">
+                <input
+                  class="bg-white p-[0.8rem] border border-[#ddd] rounded-[5px] text-[1rem] duration-300 w-full focus:outline-none focus:border-green focus:shadow-[0px_0px_0px_3px_rgba(42,157,143,0.2)] placeholder:text-black-1"
+                  type="email"
+                  id="email"
+                  required
+                  placeholder="Your Email"
+                />
+              </div>
+              <button
+                type="submit"
+                class="inline-block bg-green py-4 px-6 rounded-[5px] font-semibold cursor-pointer text-[1rem] duration-500 hover:bg-secondary hover:-translate-y-1 text-white"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="text-center pt-8 border-t border-white-3">
+          <p>
+            © 2025 EcoBuild. All Rights Reserved. | Designed with
+            <i class="fa-solid fa-heart text-green"></i> for a Sustainable
+            Future
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
